@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('artifact stage'){
       steps{
-        archieveartifact artifacts: "output.txt" ,fingerprint=true
+        archieveArtifact artifacts: "output.txt" ,fingerprint=true
       }
     }
   }
